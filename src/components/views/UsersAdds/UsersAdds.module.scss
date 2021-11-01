@@ -1,0 +1,20 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  color: $color-text-dark;
+  .buttonAdd {
+    display: flex;
+    padding-bottom: $base-size;
+    a {
+      text-decoration: none;
+      margin: 0 auto;
+      padding-bottom: $base-size;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .title {
+    text-align: center;
+  }
+}

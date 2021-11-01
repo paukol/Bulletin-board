@@ -1,0 +1,55 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  .component {
+    padding: $base-size;
+    .photoWrapper {
+      height: 50vh;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: $base-size;
+
+      .linkWrapper {
+        display: flex;
+        a {
+          text-decoration: none;
+          margin: 0 auto;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+      .fab {
+        color: $color-white;
+      }
+    }
+
+    .card {
+      color: $color-background-dark;
+      padding: $base-size;
+
+      &__header {
+        text-align: center;
+        padding: $base-size 0;
+      }
+      &__content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .text {
+          text-align: justify;
+          padding-bottom: $base-size;
+        }
+      }
+    }
+  }
+}

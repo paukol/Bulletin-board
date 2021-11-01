@@ -1,0 +1,47 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  .component {
+    padding: $base-size;
+    .photoWrapper {
+      height: 40vh;
+      position: relative;
+      padding-bottom: $base-size;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .card {
+      .header {
+        text-align: center;
+      }
+      .text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    .linkWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      a {
+        text-decoration: none;
+        margin: 0 auto;
+
+        &:hover {
+          text-decoration: none;
+        }
+        .fab {
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .photoWrapper {
+    height: 70vh !important;
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  .buttonAdd {
+    display: flex;
+    padding-bottom: $base-size;
+    a {
+      text-decoration: none;
+      margin: 0 auto;
+      padding-bottom: $base-size;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

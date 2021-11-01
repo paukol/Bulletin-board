@@ -1,0 +1,58 @@
+{
+    "posts": [
+      {
+        "id": "1",
+        "userId": "1",
+        "title": "Apartment for sale $500.000",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et turpis a sapien luctus ullamcorper gravida vel lectus. Vivamus sed ipsum dapibus, placerat magna in, elementum erat.",
+        "date": "13.08.2021",
+        "updateDate": "10.09.2021",
+        "mail": "johndoe@example.com",
+        "status": "published",
+        "image": ""
+      },
+      {
+        "id": "2",
+        "userId": "2",
+        "title": "Apartment for rent",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et turpis a sapien luctus ullamcorper gravida vel lectus. Vivamus sed ipsum dapibus, placerat magna in, elementum erat.",
+        "date": "05.07.2021",
+        "updateDate": "05.07.2021",
+        "mail": "jennydoe@example.com",
+        "status": "published"
+      },
+      {
+        "id": "3",
+        "userId": "3",
+        "title": "I have room to share $300",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et turpis a sapien luctus ullamcorper gravida vel lectus. Vivamus sed ipsum dapibus, placerat magna in, elementum erat.",
+        "date": "20.09.2020",
+        "updateDate": "25.09.2020",
+        "mail": "jessicadoe@example.com",
+        "status": "published",
+        "image": ""
+      },
+      {
+        "id": "4",
+        "userId": "1",
+        "title": "Looking for an apartment",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et turpis a sapien luctus ullamcorper gravida vel lectus. Vivamus sed ipsum dapibus, placerat magna in, elementum erat.",
+        "date": "10.08.2021",
+        "updateDate": "13.09.2021",
+        "mail": "johndoe@example.com",
+        "status": "published",
+        "image": ""
+      },
+      {
+        "id": "5",
+        "userId": "3",
+        "title": "A falt for sale",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et turpis a sapien luctus ullamcorper gravida vel lectus. Vivamus sed ipsum dapibus, placerat magna in, elementum erat.",
+        "date": "20.06.2020",
+        "updateDate": "02.08.2020",
+        "mail": "jessicadoe@example.com",
+        "status": "published",
+        "image": ""
+      }
+    ]
+  }
