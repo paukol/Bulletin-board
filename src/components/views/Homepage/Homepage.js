@@ -25,12 +25,6 @@ class Component extends React.Component {
     const { fetchPublishedPosts} = this.props;
     fetchPublishedPosts();
   }
-  componentDidUpdate(prevProps) {
-    const { fetchPublishedPosts, posts } = this.props;
-    if (posts === {} || posts !== prevProps.posts) {
-      fetchPublishedPosts();
-    }
-  }
 
   render() {
     const {
@@ -40,9 +34,15 @@ class Component extends React.Component {
       loading: { active, error },
     } = this.props;
 
-    if (active || !posts.length) {
+    if (active) {
       return (
         <Paper className={styles.component}>
+        </Paper>
+      );
+    } else if (post.length === 0 ) { 
+      return (
+        <Paper className={styles.component}>
+        <h2>ups... there are no posts</h2>
         </Paper>
       );
     } else if (error) {

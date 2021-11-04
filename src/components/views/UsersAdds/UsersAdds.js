@@ -37,12 +37,7 @@ class Component extends React.Component {
       user: currentUser,
     });
   }
-  componentDidUpdate(prevProps) {
-    const { fetchPosts, posts } = this.props;
-    if (posts === {} || posts !== prevProps.posts) {
-      fetchPosts();
-    }
-  }
+
 
   render() {
     const {
@@ -53,12 +48,18 @@ class Component extends React.Component {
     } = this.props;
     const { user } = this.state;
 
-    if (active || !posts.length) {
+    if (active) {
       return (
         <Paper className={styles.component}>
           <Loading />
         </Paper>
       );
+    }else if (posts.length === 0){
+      return(
+        <Paper className={styles.component}>
+          <h2>ups... there are no posts</h2>
+        </Paper>
+      )
     } else if (error) {
       return (
         <Paper className={styles.component}>
